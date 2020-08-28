@@ -86,11 +86,11 @@ open class NotificationBanner: BaseNotificationBanner {
                 make.top.equalToSuperview()
                 make.left.equalToSuperview()
                 make.right.equalToSuperview()
-                if let _ = subtitle {
-                    titleLabel!.numberOfLines = 1
-                } else {
-                    titleLabel!.numberOfLines = 2
-                }
+//                if let _ = subtitle {
+//                    titleLabel!.numberOfLines = 1
+//                } else {
+                    titleLabel!.numberOfLines = 0
+//                }
             }
         }
         
